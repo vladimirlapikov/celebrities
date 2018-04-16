@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Cristiano",
+    "age": 33,
+    "country": "Portugal"
+  },
+  {
+    "id": 2,
+    "name": "Paolo",
+    "age": 12,
+    "country": "Italy"
+  },
+  {
+    "id": 3,
+    "name": "Arnold",
+    "age": 53,
+    "country": "Austria"
+  },
+  {
+    "id": 4,
+    "name": "Emma",
+    "age": 29,
+    "country": "USA"
+  },
+  {
+    "id": 5,
+    "name": "Zack",
+    "age": 30,
+    "country": "USA"
+  }
+]

@@ -1,0 +1,10 @@
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\bin\Debug\netstandard1.4\CelebritiesBLL.deps.json
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\obj\Debug\netstandard1.4\CelebritiesBLL.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\obj\Debug\netstandard1.4\CelebritiesBLL.AssemblyInfo.cs
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\bin\Debug\netstandard1.4\CelebritiesBLL.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\bin\Debug\netstandard1.4\CelebritiesBLL.pdb
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\bin\Debug\netstandard1.4\CelebritiesDAL.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\bin\Debug\netstandard1.4\CelebritiesDAL.pdb
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\obj\Debug\netstandard1.4\CelebritiesBLL.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\obj\Debug\netstandard1.4\CelebritiesBLL.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebritiesBLL\obj\Debug\netstandard1.4\CelebritiesBLL.pdb

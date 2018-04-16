@@ -1,0 +1,13 @@
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\CelebBLL.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\CelebBLL.pdb
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Castle.Core.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Castle.Windsor.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Repo.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Repo.pdb
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Castle.Windsor.xml
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\obj\Debug\CelebBLL.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\obj\Debug\CelebBLL.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\obj\Debug\CelebBLL.dll
+C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\CelebBLL\obj\Debug\CelebBLL.pdb
