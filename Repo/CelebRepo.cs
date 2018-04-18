@@ -9,12 +9,21 @@ namespace CelebritiesDAL
 {
     public class CelebRepo
     {
-        // change to relative path
-        public const string PATH = "C:/Users/Vladimir Gold/source/repos/CelebritiesAPI/CelebritiesAPI/CelebsMockData/celebs.json";
+
+         static string fileName = @"celebs.json";
+       
+        private static string FullPathDirectory(string fName)
+        {
+            string filePath = AppDomain.CurrentDomain.BaseDirectory + "CelebsMockData\\" + fName;
+            return filePath;
+        }
+        public string path = FullPathDirectory(fileName);
+
+    
 
         public List<Celebrity> GetAllCelebrities()
         {
-            using (StreamReader streamReader = new StreamReader(PATH))
+            using (StreamReader streamReader = new StreamReader(path))
             {
                 string json = streamReader.ReadToEnd();
                 List<Celebrity> celebs = JsonConvert.DeserializeObject<List<Celebrity>>(json);
@@ -24,7 +33,7 @@ namespace CelebritiesDAL
 
         public void CreateCeleb(Celebrity celebrity)
         {
-            StreamReader streamReader = new StreamReader(PATH);
+            StreamReader streamReader = new StreamReader(path);
             string json = streamReader.ReadToEnd();
             List<Celebrity> celebs = JsonConvert.DeserializeObject<List<Celebrity>>(json);
             
@@ -38,7 +47,7 @@ namespace CelebritiesDAL
             celebs.Add(itemToCreate);
             streamReader.Close();
 
-            StreamWriter writer = new StreamWriter(PATH, false);
+            StreamWriter writer = new StreamWriter(path, false);
             var celebsOut = JsonConvert.SerializeObject(celebs, Formatting.Indented);
             writer.Write(celebsOut);
             writer.Close();
@@ -47,12 +56,12 @@ namespace CelebritiesDAL
         // UpdateCeleb
         public void UpdateCeleb(Celebrity celebrity)
         {
-            StreamReader streamReader = new StreamReader(PATH);
+            StreamReader streamReader = new StreamReader(path);
             string json = streamReader.ReadToEnd();
             List<Celebrity> celebs = JsonConvert.DeserializeObject<List<Celebrity>>(json);
             streamReader.Close();
 
-            StreamWriter writer = new StreamWriter(PATH, false);
+            StreamWriter writer = new StreamWriter(path, false);
             var itemToUpdate = celebs.Single(c => c.ID == celebrity.ID);
             itemToUpdate.Name = celebrity.Name;
             itemToUpdate.Age = celebrity.Age;
@@ -65,12 +74,12 @@ namespace CelebritiesDAL
 
         public void DeleteCeleb(int id)
         {
-            StreamReader streamReader = new StreamReader(PATH);
+            StreamReader streamReader = new StreamReader(path);
             string json = streamReader.ReadToEnd();
             List<Celebrity> celebs = JsonConvert.DeserializeObject<List<Celebrity>>(json);
             streamReader.Close();
             
-            StreamWriter writer = new StreamWriter(PATH, false);
+            StreamWriter writer = new StreamWriter(path, false);
             var itemToRemove = celebs.Single(c => c.ID == id);
             celebs.Remove(itemToRemove);
             var celebsOut = JsonConvert.SerializeObject(celebs, Formatting.Indented); 
