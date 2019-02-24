@@ -6,3 +6,12 @@ C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\Repo\obj\Debug\RepoDAL.csproj
 C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\Repo\obj\Debug\RepoDAL.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\Repo\obj\Debug\Repo.dll
 C:\Users\Vladimir Gold\source\repos\CelebritiesAPI\Repo\obj\Debug\Repo.pdb
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\bin\Debug\Repo.dll
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\bin\Debug\Repo.pdb
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\obj\Debug\RepoDAL.csprojAssemblyReference.cache
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\obj\Debug\RepoDAL.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\obj\Debug\RepoDAL.csproj.CopyComplete
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\obj\Debug\Repo.dll
+C:\Users\Vladimir Gold\Documents\Visual Studio 2017\Projects\CelebritiesAPI\Repo\obj\Debug\Repo.pdb
