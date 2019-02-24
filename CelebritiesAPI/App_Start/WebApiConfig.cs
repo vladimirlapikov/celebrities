@@ -27,8 +27,9 @@ namespace CelebritiesAPI
                     .LifestyleScoped()
                 );
             var dependencyResolver = new WindsorDependencyResolver(container.Kernel);
-
             GlobalConfiguration.Configuration.DependencyResolver = dependencyResolver;
+
+
             // Web API routes
             config.MapHttpAttributeRoutes();
 

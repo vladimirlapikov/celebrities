@@ -7,15 +7,9 @@
   },
   {
     "id": 2,
-    "name": "Paolo",
+    "name": "Paola",
     "age": 12,
     "country": "Italy"
-  },
-  {
-    "id": 3,
-    "name": "Arnold",
-    "age": 53,
-    "country": "Austria"
   },
   {
     "id": 4,
